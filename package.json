@@ -1,0 +1,20 @@
+{
+  "name": "iztype",
+  "version": "1.0.0",
+  "description": "Type checker for node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "jest"
+  },
+  "author": "Clinton Baker",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.t.js"
+    ]
+  }
+}
